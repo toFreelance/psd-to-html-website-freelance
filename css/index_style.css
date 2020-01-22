@@ -161,99 +161,49 @@
 
 }
 /**/
-.cl
-{
-    color: rgb(186, 156,92);
-
-    color: rgb(208,188,144);
-
-    color: rgb(156, 145, 84);
-
-    color: rgb(188, 180, 139);
-
-    color: rgb(55, 75, 61);
-
-    color: rgb(0,96,44);
-
-    color: rgb(228,228,228);
-
-    color: rgb(195,195,196);
-
-    color: rgb(48,49,50);
-
-    color: rgb(121,122,122);
-
-    color: rgb(164,33,33);
-
-}
 
 body
 {
     box-sizing: border-box;
-
 }
-/* 
-.containr{
-    width: 250px;
-    height: 250px;
-    background: black;
+
+
+/*************************************
+*BOOK FLIP
+***************************************/
+.flip-book{
     position: relative;
-    left:50%;
-    top:200px;
-    transform:  translate(-50%, -50%);
-    perspective:  1000px;
-}
-
-.cover{
-    width: 210px;
-    height: 100%;
-    position: absolute;
-    left:40px;
-    background-color: cornflowerblue;
-    transform:  rotateY(0deg);
-    transform-style: preserve-3d;
-    transform-origin:left ;
-    transition:  all .5s ease-in;
-}
-
-.containr:hover .cover
-{
-    transform: rotateY(-180deg);
-}
-
-figure{
-    margin: 0;
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-}
-
- .fron{
-    background-color: red;
-}
-
- .bac{
-    background-color: green;
-    transform: rotateY(180deg);
-}
-*/
-
-body
-{
     background: white;
     direction: rtl;
     text-align: right;
+}
+.b-red{
+    width: 100px;
+    height: 685px;
+    background-color: rgb(164,33,33);
+    position: absolute;
+    left: 720px;
+    top: 70px;
+}
 
-} 
+.b-red-btm{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(164,33,33);
+    position: absolute;
+    left: 720px;
+    bottom: -50px;
+}
 
+#b-main-head{
+    color: rgb(0,96,44);
+    text-align: center;
+}
 .all-book{
     position: relative;
     margin: auto;
     width: 960px;
     height: 630px;
-        /* border: solid 20px violet; */
     background-color: white;
     box-shadow: -3px -1px 83px 0px rgba(102,99,102,1);
 }
@@ -292,13 +242,20 @@ body
     box-sizing: border-box;
     backface-visibility: hidden;
     background:white;
-    border-left:  2px solid gainsboro;
+    border-left:  1px solid gainsboro;
+    border-right:  1px solid gainsboro;
+
   }
 
   .back {
     transform: rotateY(-180deg);
+    border-left:  5px solid gainsboro;
   }
   
+  .front{
+    border-right:  5px solid gainsboro;
+
+  }
  
 
   .page.active {
@@ -310,8 +267,6 @@ body
   .page.flipped:last-of-type {
     z-index: 1;
   }
-  
- 
   
 #prevBtn{
     position: absolute;
@@ -352,5 +307,10 @@ body
     margin-right: 1px;
     height: 630px;
 }
+
+/*************************************
+* END BOOK FLIP
+***************************************/
+
 
 
