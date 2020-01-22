@@ -80,7 +80,7 @@ figure{
 
 body
 {
-    background: lightblue;
+    background: white;
     direction: rtl;
     text-align: right;
 
@@ -93,6 +93,7 @@ body
     height: 630px;
         /* border: solid 20px violet; */
     background-color: white;
+    box-shadow: -3px -1px 83px 0px rgba(102,99,102,1);
 }
 .scene {
     position: absolute;
@@ -185,7 +186,7 @@ body
 }
 
 .b-decore{
-    border-right: 1px solid red;
+    border-right: 1px solid gray;
     margin-right: 1px;
     height: 630px;
 }
