@@ -1,12 +1,12 @@
 
 $('.scene')
-.on('click', '#nextBtn', nextPage)
-.on('click', '#prevBtn', prevPage);
+.on('click', '#nextBtn', prevPage )
+.on('click', '#prevBtn', nextPage);
 
 // $('.book').hammer().on("swipeleft", nextPage);
 // $('.book').hammer().on("swiperight", prevPage);
 
-function prevPage() {
+function nextPage() {
   $('.flipped')
     .last()
     .removeClass('flipped')
@@ -14,7 +14,7 @@ function prevPage() {
     .siblings('.page')
     .removeClass('active');
 }
-function nextPage() {
+function prevPage() {
   $('.active')
     .removeClass('active')
     .addClass('flipped')
@@ -27,10 +27,10 @@ document.addEventListener("keydown" , function(e){
 
     if(e.keyCode == 39)
     {
-        nextPage();
+        prevPage();
     }
     else if(e.keyCode == 37)
     {
-        prevPage();
+        nextPage();
     }
 })
