@@ -1,10 +1,10 @@
 
+/*************************************
+ * FLIP BOOK
+ ************************************/
 $('.scene')
 .on('click', '#nextBtn', prevPage )
 .on('click', '#prevBtn', nextPage);
-
-// $('.book').hammer().on("swipeleft", nextPage);
-// $('.book').hammer().on("swiperight", prevPage);
 
 function nextPage() {
   $('.flipped')
@@ -34,3 +34,7 @@ document.addEventListener("keydown" , function(e){
         nextPage();
     }
 })
+
+/*************************************
+ * END FLIP BOOK
+ ************************************/
