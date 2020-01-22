@@ -81,6 +81,9 @@ figure{
 body
 {
     background: lightblue;
+    direction: rtl;
+    text-align: right;
+
 } 
 
 .all-book{
@@ -88,6 +91,7 @@ body
     margin: auto;
     width: 960px;
     height: 630px;
+        /* border: solid 20px violet; */
     background-color: white;
 }
 .scene {
@@ -129,9 +133,11 @@ body
   }
 
   .back {
-    transform: rotateY(180deg);
+    transform: rotateY(-180deg);
   }
   
+ 
+
   .page.active {
     z-index: 1;
   }
@@ -142,12 +148,7 @@ body
     z-index: 1;
   }
   
-  .page.first {
-    /* transform: rotateY(-180deg); */
-  }
-  .page.last{
-    /* transform: rotateY(180deg); */
-  }
+ 
   
 #prevBtn{
     position: absolute;
@@ -166,3 +167,27 @@ body
     background-color: black;
     color: white;
 }
+
+.p-head1{
+    color:rgb(0,96,44) ;
+}
+
+.p-head2{
+    color: rgb(186, 156,92);
+
+}
+
+.readMore{
+    text-align: center;
+}
+.readMore a{
+    color:rgb(0,96,44) ;
+}
+
+.b-decore{
+    border-right: 1px solid red;
+    margin-right: 1px;
+    height: 630px;
+}
+
+
