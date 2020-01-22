@@ -1,4 +1,166 @@
 /*css*/
+
+/*Sec1*/
+.Sec1 .content h1,.Sec1 .content i
+{
+    text-align: center;
+    font-size: 1.4rem;
+    color: rgb(48,49,50) ;
+    margin:1rem 0rem;
+    font-weight: 700;
+    line-height: 1.0909090909;
+    transition: color 0s 0s;
+}
+.Sec1 .content i
+{
+    font-size: 1.5rem;
+    border-color:rgb(48,49,50) !important;
+    border-width:0.2rem !important;
+    transition: border-color 0s 0s,color 0s 0s;
+}
+.Sec1 .content p
+{
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 26px;
+}
+.Sec1 .content a
+{
+    cursor: pointer;
+    transition: color 0s 0s;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.0909090909;
+    transition: color 0s 0s;
+}
+.Sec1 .content .contentLine
+{
+    border:solid 1px rgb(48,49,50) !important;
+    margin-top: 1rem;
+}
+.Sec1 .content-item:hover a 
+{
+    color: rgb(0,96,44);
+}
+.Sec1 .content-item:hover h1
+{
+    color: rgb(0,96,44);
+}
+.Sec1 .content-item:hover i
+{
+    color: rgb(0,96,44);
+    border-color: rgb(0,96,44) !important;
+}
+.Sec1 .content > h1
+{
+    color: rgb(0,96,44);
+}
+.adTop
+{
+    color: rgb(0,96,44);
+    background-color: rgb(195,195,196);
+}
+.adTop h1,.adTop i
+{
+    color: rgb(0,96,44) !important;
+}
+.adTop h1
+{
+    font-size: 0.9rem ;
+    font-weight: 400 !important;
+}
+.adBottom
+{
+    background-color: rgb(228,228,228);
+}
+@media screen
+{
+    .ad
+    {
+        margin-top: 1rem;
+    }
+
+}.Sec1 .content h1,.Sec1 .content i
+{
+    text-align: center;
+    font-size: 1.4rem;
+    color: rgb(48,49,50) ;
+    margin:1rem 0rem;
+    font-weight: 700;
+    line-height: 1.0909090909;
+    transition: color 0s 0s;
+}
+.Sec1 .content i
+{
+    font-size: 1.5rem;
+    border-color:rgb(48,49,50) !important;
+    border-width:0.2rem !important;
+    transition: border-color 0s 0s,color 0s 0s;
+}
+.Sec1 .content p
+{
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 26px;
+}
+.Sec1 .content a
+{
+    cursor: pointer;
+    transition: color 0s 0s;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.0909090909;
+    transition: color 0s 0s;
+}
+.Sec1 .content .contentLine
+{
+    border:solid 1px rgb(48,49,50) !important;
+    margin-top: 1rem;
+}
+.Sec1 .content-item:hover a 
+{
+    color: rgb(0,96,44);
+}
+.Sec1 .content-item:hover h1
+{
+    color: rgb(0,96,44);
+}
+.Sec1 .content-item:hover i
+{
+    color: rgb(0,96,44);
+    border-color: rgb(0,96,44) !important;
+}
+.Sec1 .content > h1
+{
+    color: rgb(0,96,44);
+}
+.adTop
+{
+    color: rgb(0,96,44);
+    background-color: rgb(195,195,196);
+}
+.adTop h1,.adTop i
+{
+    color: rgb(0,96,44) !important;
+}
+.adTop h1
+{
+    font-size: 0.9rem ;
+    font-weight: 400 !important;
+}
+.adBottom
+{
+    background-color: rgb(228,228,228);
+}
+@media screen
+{
+    .ad
+    {
+        margin-top: 1rem;
+    }
+
+}
+/**/
 .cl
 {
     color: rgb(186, 156,92);
