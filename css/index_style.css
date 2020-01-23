@@ -179,20 +179,12 @@ body
 }
 .b-red{
     width: 100px;
-    height: 685px;
+    height: 660px;
     background-color: rgb(164,33,33);
     position: absolute;
     left: 720px;
-    top: 70px;
-}
-
-.b-red-btm{
-    width: 100px;
-    height: 50px;
-    background-color: rgb(164,33,33);
-    position: absolute;
-    left: 720px;
-    bottom: -50px;
+    top: 110px;
+    z-index: 1;
 }
 
 #b-main-head{
@@ -202,15 +194,16 @@ body
 .all-book{
     position: relative;
     margin: auto;
-    width: 960px;
-    height: 630px;
-    background-color: white;
+    width: 1020px;
+    height: 690px;
+    background-image: url("../images/leather-pettern.png");
     box-shadow: -3px -1px 83px 0px rgba(102,99,102,1);
 }
 .scene {
     position: absolute;
-    right: 0;
-
+    z-index: 2;
+    right: 30px;
+    top: 30px;
     width: 480px;
     height: 630px;
     margin:  0px;
@@ -259,13 +252,13 @@ body
  
 
   .page.active {
-    z-index: 1;
+    z-index: 22;
   }
   .page.flipped {
     transform: rotateY(-180deg);
   }
   .page.flipped:last-of-type {
-    z-index: 1;
+    z-index: 22;
   }
   
 #prevBtn{
@@ -311,6 +304,3 @@ body
 /*************************************
 * END BOOK FLIP
 ***************************************/
-
-
-
