@@ -187,6 +187,8 @@ body
     z-index: 1;
 }
 
+
+
 #b-main-head{
     color: rgb(0,96,44);
     text-align: center;
@@ -199,11 +201,20 @@ body
     background-image: url("../images/leather-pettern.png");
     box-shadow: -3px -1px 83px 0px rgba(102,99,102,1);
 }
+.b-layer{
+    position: absolute;
+    width: 960px;
+    height: 630px;
+    top: 30px;
+    left: 30px;
+    background-color: white;
+    z-index: 2;
+}
 .scene {
     position: absolute;
     z-index: 2;
-    right: 30px;
-    top: 30px;
+    right: 0px;
+    top: 0px;
     width: 480px;
     height: 630px;
     margin:  0px;
@@ -304,3 +315,6 @@ body
 /*************************************
 * END BOOK FLIP
 ***************************************/
+
+
+
