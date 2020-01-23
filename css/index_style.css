@@ -1,5 +1,8 @@
 /*css*/
-
+body
+{
+direction:rtl;
+}
 /*Sec1*/
 .Sec1 .content h1,.Sec1 .content i
 {
