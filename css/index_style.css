@@ -166,8 +166,102 @@ body
 {
     box-sizing: border-box;
 }
+/**************End Sec1****************/
 
 
+/***********Books show*****************/
+.books
+{
+    background:url('../images/slider1.jpg');
+    background-size: 100% 100%;
+}
+.booksDarker
+{
+    background-color: rgba(0,0,0,0.85);
+}
+.books p
+{
+    color: rgb(55, 75, 61);
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+.books .borderL
+{
+    border-left: 1px solid black;
+}
+.books .bookItemLayer
+{
+    color: white;
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    top:100%;
+    background-color: rgb(186, 156,92);
+    transition: top 0.2s 0s;
+}
+.bookItem
+{
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+}
+.bookItem:hover .bookItemLayer
+{
+    top:0%;
+}
+.bookItemLayer h1
+{
+    font-size: 1.6rem;
+    font-weight: 800;
+    line-height: 1.0909090909 rem;
+    padding: 1rem 0rem;
+}
+.bookItemLayer i
+{
+    font-size: 1rem;
+    font-weight: 300;
+    padding-bottom: 1rem;
+}
+.bookItemLayer h3
+{
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding-bottom: 0.2rem;
+}
+.bookItemLayer h2
+{
+    font-size: 1.6rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+.bookItemLayer button
+{
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+.aboveBooks a,.aboveBooks i
+{
+    font-size:1.6rem ;
+    color: rgb(55, 75, 61);
+}
+.aboveBooks a
+{
+    text-decoration: none;
+    transition: color 0s 0s , background-color 0s 0s;
+}
+.aboveBooks i
+{
+    padding-top: 0.3rem;
+}
+.aboveBooks a:hover
+{
+color:white;
+background-color:rgb(186, 156,92);
+}
+
+
+/**************************************/
 /*************************************
 *BOOK FLIP
 ***************************************/
