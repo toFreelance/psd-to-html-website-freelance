@@ -662,7 +662,13 @@ background-color:rgb(186, 156,92);
     margin-right: 600px;
 }
 
+.social-icon i{
+    padding-right: 10px;
+}
 
+.f-copyrights p{
+    font-size: 12px;
+}
 
 /*************************************
 * END FOOTER
