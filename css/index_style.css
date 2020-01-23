@@ -641,7 +641,9 @@ background-color:rgb(186, 156,92);
     bottom: 30px;
     margin: auto;
 }
-
+.contact-h,.location{
+    background-color: rgb(208,188,144);
+}
 
 /********************************************
 		END	CONTACT US MAP
