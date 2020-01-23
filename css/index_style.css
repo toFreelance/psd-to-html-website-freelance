@@ -262,6 +262,99 @@ background-color:rgb(186, 156,92);
 
 
 /**************************************/
+
+
+
+/********************************************
+			COUNTER UP SECTION
+**********************************************/
+#counterjs{
+    text-align: center;
+    color: white;
+}
+
+.count-p{
+    margin-top: 25px;
+    /* border-bottom: 1px solid white; */
+}
+.count-p p::before {
+    content: "";
+    height: 1px;
+    width: 50px;
+    background-color: 
+    #fff;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 25px;
+    margin: auto;
+}
+.count-up-section{
+	padding:80px 0px;
+	width:100%;
+	float:left;
+
+}
+.count-up-section .count-up{
+	float:left;
+	width:100%;
+	text-align:center;
+}
+.count-up-section span.counter{
+	font-size:70px;
+	color:#fff;
+	font-weight:bold;
+	line-height:70px;
+}
+.count-up-section .count-up p{
+	color:#fff;
+	font-weight:bold;
+	text-transform:uppercase;
+	font-size:18px;
+	margin:0px;
+}
+
+.count-bg{
+    background-color: rgb(186, 156,92);
+}
+
+.count-part{
+    background-color: rgb(156, 145, 84);
+    height: 100%;
+}
+
+.circle-part{
+    background-color: rgb(188, 180, 139);
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.circle-bg{
+
+    background-color: rgb(208,188,144);
+    height: 60%;
+    width: 60%;
+    border-radius: 50%;
+    text-align: center;
+    padding: 0px;   
+}
+
+.num-board{
+
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: 1px solid white;
+    margin-left: 30px;
+}
+
+.num-board span{
+    padding-top: 20px;
+}
+/********************************************
+		END	COUNTER UP SECTION
+**********************************************/
+
 /*************************************
 *BOOK FLIP
 ***************************************/
